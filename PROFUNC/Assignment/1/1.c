@@ -54,10 +54,12 @@ int main(){
    return 0;
 } */
 
-#include <stdio.h>
+// NOTE : ---------------------------------------------------------------------------------------------------------------
+
+/* #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <curl.h>
+#include <curl/curl.h>
 
 typedef struct
 {
@@ -161,4 +163,4 @@ int main()
    char student_id[] = "67011509.csv"; // เปลี่ยนรหัสนักศึกษาเป็นค่าที่ต้องการ
    readCSV(student_id);
    return 0;
-}
+} */
