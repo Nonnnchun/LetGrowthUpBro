@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Code/PROFUNC/ActivityMe/05ArrayAndFunction",
-      "program": "d:/Code/PROFUNC/ActivityMe/05ArrayAndFunction/build/Debug/outDebug",
+      "cwd": "c:/Code/PROFUNC/Assignment/1",
+      "program": "c:/Code/PROFUNC/Assignment/1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
