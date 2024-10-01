@@ -50,3 +50,80 @@ int main(){
 
    return 0;
 }
+
+//NOTE : Without calculator function ---------------------------------------------------------------------------
+
+/* #include <stdio.h>
+
+int main()
+{
+
+   FILE *fpr;
+   fpr = fopen("calculator_hard.txt", "r");
+
+   FILE *fpw;
+   fpw = fopen("calculator_hard_ans.txt", "w");
+
+   char line[50];
+   while (fgets(line, sizeof(line), fpr))
+   {
+      int a = 0, b = 0, ans = 0;
+      int n = 10;
+      int sign = 0;
+      for (int i = 0; line[i] != '\0'; i++)
+      {
+         if (line[i] != '\n')
+         {
+            fprintf(fpw, "%c", line[i]);
+         }
+         if (line[i] >= 48 && line[i] <= 57)
+         {
+            b = b * n + (line[i] - 48);
+         }
+         else if (line[i] == 43)
+         {
+            if (sign == 0)
+            {
+               a = a + b;
+               b = 0;
+            }
+            else
+            {
+               a = a - b;
+               b = 0;
+            }
+            sign = 0;
+         }
+         else if (line[i] == 45)
+         {
+            if (sign == 0)
+            {
+               a = a + b;
+               b = 0;
+            }
+            else
+            {
+               a = a - b;
+               b = 0;
+            }
+            sign = 1;
+         }
+      }
+      if (sign == 0)
+      {
+         a = a + b;
+         b = 0;
+      }
+      else
+      {
+         a = a - b;
+         b = 0;
+      }
+
+      fprintf(fpw, "=%d\n", a);
+   }
+
+   fclose(fpr);
+   fclose(fpw);
+   return 0;
+} */
