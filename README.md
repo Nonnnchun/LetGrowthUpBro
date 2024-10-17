@@ -1,2 +1,2 @@
 # LetGrowthUpBro
-My Growtf
+My Growth - Create a new life \n
